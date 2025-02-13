@@ -1,0 +1,65 @@
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    height: calc(100vh - 50px); /* Subtract footer height */
+}
+.background-image {
+    background: linear-gradient(to bottom, white, #FFE1E6);  /* white to pastel pink */
+    height: 100vh;
+    width: 100vw;
+
+}
+html, body{
+    height:100vh;
+    margin:0;
+    padding:0;
+}
+.button{
+    display:flex;
+    gap: 40px;
+    margin-top:10px;
+   
+}
+.title{
+    font-family: "Caveat", serif;
+    font-size: 40px;
+    color:#c42e47;
+}
+button{
+    padding: 15px 30px;
+    border-radius:20px;
+  width:150px;
+  font-size:20px;
+  border:none;
+  font-family:'Roboto', sans-serif;
+  color:white;
+  font-weight:bold;
+
+
+}
+.yes{
+    background-color:#c6e5af;
+}
+.yes:hover{
+    background-color:#a3d193;
+}
+.no{
+    background-color:#ff5177;
+}
+.no:hover{
+    background-color:#e64a6f;
+}
+img{
+    width:350px;
+    height:auto;
+border-radius:20px;
+}
+
+footer{
+    display:flex;
+    justify-content:center;
+    color:#c42e47;
+}
